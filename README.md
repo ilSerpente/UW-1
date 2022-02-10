@@ -8,19 +8,19 @@
 git clone https://github.com/ilSerpente/UW-1.git
 ```
 ## Setup tokens
-1) Open env_template file and set tokens
-2) Rename file: 
+1) Move to project folder:
+```
+cd UW-1
+```
+2) Open env_template file in any text editor and set tokens
+3) Rename file: 
 ```
 mv env_template .env
 ```
 ## Running
-Move to project folder:
-```
-cd UW-1
-```
 Run script:
 ```
-python ebay.py
+python3 ebay.py
 ```
 ## Options
 ```
@@ -54,7 +54,7 @@ Complet exucution log:  ./logs/get_all_categories_02_10_2022-16_34_57.json
 ## Usage
 1) Get all categories, you can select [eBay Global ID](https://developer.ebay.com/DevZone/merchandising/docs/Concepts/SiteIDToGlobalID.html) as first parameter and as second search depth in the category tree:
 ```
-python3 ebay.py get_all_categories 2 1
+python3 ebay.py -a get_all_categories 2 1
 ```
 2) After execution open log file and search for needed category ID:
 ![alt text](example_img/example.png?raw=true)
