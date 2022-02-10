@@ -7,6 +7,12 @@
 ```
 git clone https://github.com/ilSerpente/UW-1.git
 ```
+## Setup tokens
+1) Open env_template file and set tokens
+2) Rename file: 
+```
+mv env_template .env
+```
 ## Running
 Move to project folder:
 ```
