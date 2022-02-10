@@ -8,19 +8,19 @@
 git clone https://github.com/ilSerpente/UW-1.git
 ```
 ## Setup tokens
-1) Open env_template file and set tokens
-2) Rename file: 
+1) Move to project folder:
+```
+cd UW-1
+```
+2) Open env_template file in any text editor and set tokens
+3) Rename file: 
 ```
 mv env_template .env
 ```
 ## Running
-Move to project folder:
-```
-cd UW-1
-```
 Run script:
 ```
-python ebay.py
+python3 ebay.py
 ```
 ## Options
 ```
