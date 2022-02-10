@@ -57,7 +57,7 @@ Complet exucution log:  ./logs/get_all_categories_02_10_2022-16_34_57.json
 python3 ebay.py get_all_categories 2 1
 ```
 2) After execution open log file and search for needed category ID:
-![alt text](https://github.com/ilSerpente/UW-1/example_img/blob/main/example.png?raw=true)
+![alt text](example_img/example.png?raw=true)
 
 3) Get category specitic fields:
 ```
@@ -67,11 +67,11 @@ Running GetCategorySpecifics eBay request. With params:
 Complet exucution log:  ./logs/get_category_specific_fields_02_10_2022-17_11_59.json
 ```
 4) Search for required fields in log file:
-![alt text](https://github.com/ilSerpente/UW-1/example_img/blob/main/example2.png?raw=true)
+![alt text](example_img/example2.png?raw=true)
 You have to find all fields with "UsageConstraint": "Required" and save their names ("Name": "Movie/TV Title") in item_template.py
 
 5) Adding fields:
-![alt text](https://github.com/ilSerpente/UW-1/example_img/blob/main/example3.png?raw=true)
+![alt text](example_img/example3.png?raw=true)
 
 6) Listing item test:
 ```
